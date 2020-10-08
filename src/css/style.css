@@ -1,0 +1,59 @@
+#root {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.wrapper {
+  margin-top: 100px;
+  width: 45%;
+  height: 600px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  overflow: auto;
+}
+
+.inst{
+  margin-bottom: 15px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.actions, .status, .id {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.action-delete, .action-stopped, .action-running, .footer {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  color: darkseagreen;
+  font-size: 20px;
+}
+
+.icon-stopped {
+  width: 15px;
+  height: 15px;
+  background: red;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.icon-running {
+  width: 15px;
+  height: 15px;
+  background: green;
+  margin-right: 5px;
+  border-radius: 50%;
+}
