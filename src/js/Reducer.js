@@ -5,7 +5,7 @@ import Instances from './Components/Instances';
 export default class Reducer {
   constructor() {
     this.container = document.getElementById('root');
-    this.api = new API('ws://ws-third-backend-ajsb.herokuapp.com/ws');
+    this.api = new API('wss://ws-third-backend-ajsb.herokuapp.com/ws');
     this.createInst = this.createInst.bind(this);
     this.stopInst = this.stopInst.bind(this);
     this.startInst = this.startInst.bind(this);
